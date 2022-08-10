@@ -2,8 +2,11 @@
 
 A simple task management built in react, B5 , sweetalert and react-modals
 
-## Build
+# Install dependencies
+npm install
 
-In the project directory, you can run:
-### `npm install`
-### `npm start`
+# Serve on localhost:3000
+npm start
+
+# Build for production
+npm run build
