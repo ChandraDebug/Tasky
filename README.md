@@ -2,6 +2,9 @@
 
 A simple task management built in react, B5 , sweetalert and react-modals
 
+## Quick Start
+
+```bash
 # Install dependencies
 npm install
 
