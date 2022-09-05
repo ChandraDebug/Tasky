@@ -1,15 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import App from "./App";
-// import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap-icons/font/bootstrap-icons.css';
-import * as mdb from "mdb-ui-kit";
-import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import "mdb-react-ui-kit/css/mdb.min.css";
 import "mdb-ui-kit/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/js/all.js";
 import "typeface-quicksand";
 import "./index.css";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
