@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "mdb-react-ui-kit/css/mdb.min.css";
 import "mdb-ui-kit/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/js/all.js";
 import "typeface-quicksand";
