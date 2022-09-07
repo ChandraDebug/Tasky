@@ -1,9 +1,3 @@
-const classSeverity = {
-  High: "bg-danger",
-  Medium: "bg-warning",
-  Low: "bg-info",
-};
-
 export default function PriorityIcon(props) {
   let classsevere = "bg-info";
   if (props.severity === "High") {

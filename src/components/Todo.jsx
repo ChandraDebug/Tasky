@@ -1,4 +1,3 @@
-import EditTask from "./EditTask";
 import PriorityIcon from "./PriorityIcon";
 
 function Pending(props) {
@@ -28,15 +27,8 @@ function Pending(props) {
             <i className='fas fa-check text-success me-3'></i>
           </a>
 
-          {/* <a
-            href='#!'
-            onClick={() => <EditTask key={key} />}
-            data-mdb-toggle='tooltip'
-            title='Remove'>
-            <i className='fas fa-pencil text-secondary me-3'></i>
-          </a> */}
-
           <a
+            href='#!'
             onClick={() => Updatetask(key)}
             data-mdb-toggle='modal'
             data-mdb-target='#editModal'>
